@@ -8,8 +8,7 @@ library(rwhatsapp)
 ### leer .txt con el chat, lo generan en whatsapp
 data<-rwa_read("industrial.txt")
 
-library("dplyr")
-library("ggplot2")
+library("tidyverse")
 library("lubridate")
 
 ### Cantidad de mensajes Diarios en el grupo ###
